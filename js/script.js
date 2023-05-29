@@ -1,33 +1,33 @@
-//Creare un box in cui l'utente possa scrivere una parola
+// Creare un box in cui l'utente possa scrivere una parola
 
-// function checkpalindroma(parola){
-//     let palindroma = parola.split('').reverse().join('');
+ function checkpalindroma(parola){
+     let palindroma = parola.split('').reverse().join('');
 
-//     if(palindroma.toLowerCase() === parola.toLowerCase()){
-//         return true;
-//     }
+     if(palindroma.toLowerCase() === parola.toLowerCase()){
+         return true;
+     }
 
-//     return false;
-// }
+     return false;
+ }
 
-// let word = prompt('Inserisci una parola');
+ let word = prompt('Inserisci una parola e console log ti dirà se è palindroma');
 
-// let check = checkpalindroma(word);
+ let check = checkpalindroma(word);
 
-// let message = '';
+ let message = '';
 
-// if(check){
-//     console.log('la parola è palindroma');
-//     alert('la parola è palindroma');
-//     message = ('la parola è palindroma');
-// }
-// else{
-//     console.log('la parola non è palindroma');
-//     alert('la parola non è palindroma');
-//     message = ('la parola non è palindroma');
+ if(check){
+     console.log('la parola è palindroma');
+    //  alert('la parola è palindroma');
+     message = ('la parola è palindroma');
+ }
+ else{
+     console.log('la parola non è palindroma');
+    //  alert('la parola non è palindroma');
+     message = ('la parola non è palindroma');
 
 
-// }
+ }
 
 
 //////////////////////////////////
